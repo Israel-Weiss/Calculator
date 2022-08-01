@@ -1,0 +1,34 @@
+h1 {text-align: center;}
+
+p {margin-left: 15px;}
+
+.calculate {
+    max-width: 270px;
+    height: 420px;
+    background-color: blanchedalmond;
+    margin: auto;
+    border: 2px solid rgb(66, 4, 4);
+}
+
+.screen {
+    margin: 15px;
+    margin-bottom: 20px;
+    padding: 7px;
+    min-height: 36px;
+    background-color: black;
+    color: azure;
+    font-size: 30px;
+}
+
+button {
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+}
+
+button:hover {cursor: pointer;}
+
+.ac {width: 105px;}

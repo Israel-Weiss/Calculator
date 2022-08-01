@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>A simple calculator</h1>
+
+    <div class="calculate">
+        <p>0</p>
+        <div class="screen"></div>
+
+        <button onclick="reset()" class="ac">AC</button>
+        <button onclick="addDigit('open')">(</button>
+        <button onclick="addDigit('close')">)</button>
+
+        <button onclick="addDigit(7)">7</button>
+        <button onclick="addDigit(8)">8</button>
+        <button onclick="addDigit(9)">9</button>
+        <button onclick="setOp('/')">/</button>
+
+        <button onclick="addDigit(4)">4</button>
+        <button onclick="addDigit(5)">5</button>
+        <button onclick="addDigit(6)">6</button>
+        <button onclick="setOp('*')">x</button>
+
+        <button onclick="addDigit(1)">1</button>
+        <button onclick="addDigit(2)">2</button>
+        <button onclick="addDigit(3)">3</button>
+        <button onclick="setOp('-')">-</button>
+
+        <button onclick="addDigit(0)">0</button>
+        <button onclick="addDigit('.')">.</button>
+        <button onclick="resolt()">=</button>
+        <button onclick="setOp('+')">+</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
